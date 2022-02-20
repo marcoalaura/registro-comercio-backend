@@ -1,0 +1,12 @@
+numero,codigo,nombre,grupo,descripcion
+1,1,Comercial,C101_tipo_direccion,Comercial
+2,1,Zona,C102_subdivision_geografica,Zona
+3,2,Barrio,C102_subdivision_geografica,Barrio
+4,3,"Unidad vecinal",C102_subdivision_geografica,"Unidad vecinal"
+5,1,Avenida,C103_tipo_via,Avenida
+6,2,Calle,C103_tipo_via,Calle
+7,3,Carretera,C103_tipo_via,Carretera
+8,4,Pasaje,C103_tipo_via,Pasaje
+9,1,Departamento,C104_tipo_ambiente,Departamento
+10,2,Oficina,C104_tipo_ambiente,Oficina
+11,3,Local,C104_tipo_ambiente,Local

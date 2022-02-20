@@ -1,0 +1,23 @@
+{
+    "nombreSistemaCliente": "<nombre de sistema cliente>",
+    "nombreEntidad": "<nombre de la entidad>",
+    "urlRedireccionPpe": "<url redireccion para vista del PPE>",
+    "urlNotificacionPago": "<endpoint para notificacion de pago>",
+    "urlLogoSistemaCliente": "<url descargable de logo de la entidad/sistema>",
+    "emailEntidad": "<email entidad>",
+    "tokenPPTE": "<token para generar codigo CPT>",
+    "usuarioCreacion": "1",
+    "razonSocial": "<razon social de la entidad>"
+  }
+
+  {
+    "nombreSistemaCliente": "seprec",
+    "nombreEntidad": "SEPREC",
+    "urlRedireccionPpe": "http://localhost:8080/#/ppe",
+    "urlNotificacionPago": "http://localhost:3000/api/notificacion-ppe",
+    "urlLogoSistemaCliente": "http://localhost:8080/img/logoAgeticDark.png",
+    "emailEntidad": "nromero@agetic.gob.bo",
+    "tokenPPTE": "<token generado>",
+    "usuarioCreacion": "1",
+    "razonSocial": "Servicio de registro de comercio"
+  }

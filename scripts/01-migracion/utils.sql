@@ -1,0 +1,20 @@
+CREATE OR REPLACE FUNCTION seprec.isnumeric(text) RETURNS BOOLEAN AS $$
+DECLARE x NUMERIC;
+BEGIN
+    x = $1::NUMERIC;
+    RETURN TRUE;
+EXCEPTION WHEN others THEN
+    RETURN FALSE;
+END;
+$$
+STRICT
+LANGUAGE plpgsql IMMUTABLE;
+
+
+-- CAST TO TIMESTAMP
+CREATE OR REPLACE FUNCTION seprec.cast_to_timestamp (text)
+RETURNS timestamp
+LANGUAGE SQL
+AS $$
+	SELECT CASE WHEN $1 = '' THEN now() ELSE pg_catalog.timestamp($1) END
+$$;

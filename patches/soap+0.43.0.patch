@@ -1,0 +1,13 @@
+diff --git a/node_modules/soap/lib/wsdl/index.js b/node_modules/soap/lib/wsdl/index.js
+index f9ced38..0ca674a 100644
+--- a/node_modules/soap/lib/wsdl/index.js
++++ b/node_modules/soap/lib/wsdl/index.js
+@@ -1045,7 +1045,7 @@ var WSDL = /** @class */ (function () {
+             this.options.namespaceArrayElements = options.namespaceArrayElements;
+         }
+         else {
+-            this.options.namespaceArrayElements = true;
++            this.options.namespaceArrayElements = false;
+         }
+         // Allow any request headers to keep passing through
+         this.options.wsdl_headers = options.wsdl_headers;
